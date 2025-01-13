@@ -79,3 +79,43 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 250px;
+    gap: 30px;
+}
+
+.info-bottom img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-top {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
