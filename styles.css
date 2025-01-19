@@ -123,6 +123,21 @@ a {
     gap: 30px;
 }
 
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 250px;
+    gap: 10px;
+}
+
+.food-bottom img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .info-bottom img {
     width: 100%;
     aspect-ratio: 1/1;
@@ -137,6 +152,12 @@ a {
 }
 
 .info-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-bottom {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -159,6 +180,17 @@ a {
 .info-top {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
+}
+
+.food-top {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.food-middle {
+    font-size: 18px;
     color: #1F2937;
 }
 
@@ -282,8 +314,30 @@ a {
 
 .day1-top {
     background-color: #1F2937;
-    padding: 20px 200px;
+    padding: 30px 200px;
     display: flex;
     gap: 10px;
     align-items: start;
+}
+
+.border {
+    height: 5px;
+    background-color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.kamakura-spots {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    gap: 10px;
+}
+
+.kamakura-spots img {
+    max-height: 200px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border: #3882F6 solid 2px;
+    border-radius: 5px;
 }
