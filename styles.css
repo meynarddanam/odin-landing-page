@@ -302,13 +302,30 @@ a {
     padding: 0;
 }
 
-.jetlag-pic {
+.header-img-day-2 {
+    width: 100vw;
+    height: 300px;
+    object-fit: fill;
+    object-position: 50% 35%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.jetlag-pic, .train-pic {
     display: flex;
     gap: 10px;
 }
 
 .jetlag-pic img {
     max-height: 200px;
+    object-fit: cover;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
+.train-pic img {
+    max-height: 250px;
     object-fit: cover;
     border: #F9FAF8 solid 2px;
     border-radius: 5px;
