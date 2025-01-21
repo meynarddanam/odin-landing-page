@@ -156,7 +156,7 @@ a {
 
 .info-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -380,3 +380,29 @@ a {
     border: #F9FAF8 solid 2px;
     border-radius: 5px;
 }
+
+.firework-pic img {
+    max-height: 250px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
+.fireworks {
+    background-color: #1F2937;
+    padding: 20px 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.fireworks img {
+    height: 250px;
+    flex: 1 1 0;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
