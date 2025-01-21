@@ -129,6 +129,7 @@ a {
     align-items: center;
     padding: 20px 250px;
     gap: 10px;
+    text-align: center;
 }
 
 .food-bottom img {
