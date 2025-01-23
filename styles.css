@@ -313,7 +313,17 @@ a {
     padding: 0;
 }
 
-.jetlag-pic, .train-pic {
+.header-img-day-3 {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 4%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.jetlag-pic, .train-pic, .sensoji-pic {
     display: flex;
     gap: 10px;
 }
@@ -325,7 +335,7 @@ a {
     border-radius: 5px;
 }
 
-.train-pic img {
+.train-pic img, .sensoji-pic img {
     max-height: 250px;
     object-fit: cover;
     border: #F9FAF8 solid 2px;
