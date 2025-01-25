@@ -55,6 +55,12 @@ body {
     font-weight: 900;
 }
 
+.content3-main {
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .content1-sub {
     font-size: 18px;
     color: #E5E7EB;
@@ -132,7 +138,7 @@ a {
     text-align: center;
 }
 
-.food-bottom img {
+.food-bottom img, .roppongi-bottom img {
     width: 100%;
     aspect-ratio: 3/4;
     object-fit: cover;
@@ -160,13 +166,13 @@ a {
     gap: 20px;
 }
 
-.food-bottom {
+.food-bottom, .roppongi-bottom {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.image-block {
+.image-block, .roppongi-image-block {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -175,9 +181,18 @@ a {
     gap: 10px;
 }
 
+.roppongi-image-block {
+    color: #F9FAF8;
+}
+
 .image-block img {
     border-radius: 10px;
     border: 2px solid #3882F6;
+}
+
+.roppongi-image-block img {
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
 }
 
 .info-top {
@@ -266,6 +281,16 @@ a {
     background-color: #1F2937;
     padding: 20px 200px;
     display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-3 {
+    background-color: #1F2937;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     align-items: center;
     justify-content: space-between;
@@ -319,6 +344,16 @@ a {
     height: 300px;
     object-fit: cover;
     object-position: 50% 4%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header-img-day-4 {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 40%;
     display: block;
     margin: 0;
     padding: 0;
